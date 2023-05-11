@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
 .App {
+  display: flex;
+  flex-direction: column !important;
   width: 95%;
   padding: 0 15px;
-  display: flex;
-  flex-direction: column;
   gap: 20px;
   font-family: poppins;
 }
