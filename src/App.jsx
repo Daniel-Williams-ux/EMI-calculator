@@ -11,8 +11,8 @@ export default function App() {
   const [emi, setEmi] = useState(0);
   
   return (
-    <main>
-      React ⚛️ + Vite ⚡ + Replit 🌀
-    </main>
+    <div classNam='App'>
+      <span className='title'>EMI Calculator</span>
+    </div>
   )
 }
